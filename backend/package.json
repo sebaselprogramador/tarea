@@ -1,0 +1,20 @@
+{
+  "name": "veterinaria-backend",
+  "version": "1.0.0",
+  "description": "API REST para la pagina web de la veterinaria (Node.js + MySQL + chatbot Ollama)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
